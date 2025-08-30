@@ -22,14 +22,14 @@ int data_type() {
 }
 
 struct this_looks_objet_oriented {
-	std::string name{};
+	string name{};
 	int age{ 0 };
 	double grade{ 0.0 };
 	bool approve{ true };
-};
+}
 
 void just_a_test(this_looks_objet_oriented* student_1) {
-	std::cout << '\n' << student_1 << "\n";
+	std::cout << "\n" << student_1 << "\n";
 }
 
 int main() {
@@ -63,7 +63,7 @@ int main() {
 	std::cout << "Aprove: " << student_1.approve << "\n";
 
 
-	std::cout << '\n' << &student_1 << "\n";
+	std::cout << "\n" << &student_1 << "\n";
 	just_a_test(&student_1);
 	
 	return 0;
